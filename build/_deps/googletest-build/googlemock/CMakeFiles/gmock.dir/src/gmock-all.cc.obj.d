@@ -56,6 +56,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/include/c++/15.2.0/bits/std_abs.h \
  D:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
  D:/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
+ D:/mingw64/include/c++/15.2.0/exception \
+ D:/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
+ D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ D:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ D:/mingw64/include/c++/15.2.0/typeinfo \
+ D:/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
+ D:/mingw64/include/c++/15.2.0/bits/nested_exception.h \
  D:/mingw64/include/c++/15.2.0/functional \
  D:/mingw64/include/c++/15.2.0/bits/stl_function.h \
  D:/mingw64/include/c++/15.2.0/backward/binders.h \
@@ -63,10 +71,8 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  D:/mingw64/include/c++/15.2.0/bits/invoke.h \
  D:/mingw64/include/c++/15.2.0/bits/functional_hash.h \
- D:/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
  D:/mingw64/include/c++/15.2.0/bits/refwrap.h \
  D:/mingw64/include/c++/15.2.0/bits/std_function.h \
- D:/mingw64/include/c++/15.2.0/typeinfo \
  D:/mingw64/include/c++/15.2.0/unordered_map \
  D:/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  D:/mingw64/include/c++/15.2.0/bits/unordered_map.h \
@@ -85,8 +91,6 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/include/c++/15.2.0/bits/erase_if.h \
  D:/mingw64/include/c++/15.2.0/bits/memory_resource.h \
  D:/mingw64/include/c++/15.2.0/cstddef \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
- D:/mingw64/x86_64-w64-mingw32/include/stddef.h \
  D:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
  D:/mingw64/include/c++/15.2.0/vector \
  D:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
@@ -134,10 +138,6 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
  D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
  D:/mingw64/include/c++/15.2.0/ext/concurrence.h \
- D:/mingw64/include/c++/15.2.0/exception \
- D:/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
- D:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
- D:/mingw64/include/c++/15.2.0/bits/nested_exception.h \
  D:/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
  D:/mingw64/include/c++/15.2.0/bits/atomic_base.h \
  D:/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
@@ -197,6 +197,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/include/c++/15.2.0/bits/istream.tcc \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ D:/mingw64/include/c++/15.2.0/ciso646 \
  D:/mingw64/x86_64-w64-mingw32/include/string.h \
  D:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  D:/mingw64/include/c++/15.2.0/limits \
@@ -224,14 +225,12 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: \
  D:/mingw64/include/c++/15.2.0/variant \
  D:/mingw64/include/c++/15.2.0/bits/monostate.h \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- D:/mingw64/include/c++/15.2.0/iomanip \
- D:/mingw64/include/c++/15.2.0/bits/quoted_string.h \
- D:/mingw64/include/c++/15.2.0/sstream \
- D:/mingw64/include/c++/15.2.0/bits/sstream.tcc \
  D:/mingw64/include/c++/15.2.0/set \
  D:/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_set.h \
  D:/mingw64/include/c++/15.2.0/bits/stl_multiset.h \
+ D:/mingw64/include/c++/15.2.0/sstream \
+ D:/mingw64/include/c++/15.2.0/bits/sstream.tcc \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
  D:/DEV/TDD_TV_09/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \

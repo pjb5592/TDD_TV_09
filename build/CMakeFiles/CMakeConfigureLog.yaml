@@ -2262,8 +2262,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq"
-      binary: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq"
+      source: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec"
+      binary: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2274,13 +2274,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq'
+        Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec'
         
-        Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0c2b0/fast
-        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0c2b0.dir\\build.make CMakeFiles/cmTC_0c2b0.dir/build
-        mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq'
-        Building CXX object CMakeFiles/cmTC_0c2b0.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cc8ab/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cc8ab.dir\\build.make CMakeFiles/cmTC_cc8ab.dir/build
+        mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec'
+        Building CXX object CMakeFiles/cmTC_cc8ab.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2289,8 +2289,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0c2b0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccjIFame.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_cc8ab.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\cchgqsmk.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -2315,14 +2315,14 @@ events:
          D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\'
-         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccjIFame.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\'
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JB\\AppData\\Local\\Temp\\cchgqsmk.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_0c2b0.exe
-        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_0c2b0.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_cc8ab.exe
+        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cc8ab.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2334,16 +2334,16 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c2b0.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c2b0.'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccJoBjfE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0c2b0.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0c2b0.dir/objects.a --no-whole-archive --out-implib libcmTC_0c2b0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc8ab.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc8ab.'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccW0WPtD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cc8ab.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cc8ab.dir/objects.a --no-whole-archive --out-implib libcmTC_cc8ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccJoBjfE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0c2b0.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0c2b0.dir/objects.a --no-whole-archive --out-implib libcmTC_0c2b0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccW0WPtD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cc8ab.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cc8ab.dir/objects.a --no-whole-archive --out-implib libcmTC_cc8ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c2b0.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c2b0.'
-        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_0c2b0.dir/objects.a
-        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_0c2b0.dir/objects.a @CMakeFiles\\cmTC_0c2b0.dir\\objects1.rsp
-        D:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_0c2b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_0c2b0.exe -Wl,--out-implib,libcmTC_0c2b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc8ab.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc8ab.'
+        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_cc8ab.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_cc8ab.dir/objects.a @CMakeFiles\\cmTC_cc8ab.dir\\objects1.rsp
+        D:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_cc8ab.dir/objects.a -Wl,--no-whole-archive -o cmTC_cc8ab.exe -Wl,--out-implib,libcmTC_cc8ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec'
         
       exitCode: 0
   -
@@ -2384,13 +2384,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq']
+        ignore line: [Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0c2b0/fast]
-        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0c2b0.dir\\build.make CMakeFiles/cmTC_0c2b0.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-g2crxq']
-        ignore line: [Building CXX object CMakeFiles/cmTC_0c2b0.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cc8ab/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cc8ab.dir\\build.make CMakeFiles/cmTC_cc8ab.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-rgqpec']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cc8ab.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2399,8 +2399,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\']
-        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0c2b0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccjIFame.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\']
+        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_cc8ab.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\cchgqsmk.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -2425,8 +2425,8 @@ events:
         ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 319b0e6276b9caf8af1dcdd751e03d94]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\']
-        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccjIFame.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\']
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\JB\\AppData\\Local\\Temp\\cchgqsmk.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [D:/mingw64/bin/../libexec/gcc/]
@@ -2437,9 +2437,9 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_0c2b0.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_0c2b0.exe]
-        ignore line: [D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_0c2b0.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_cc8ab.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_cc8ab.exe]
+        ignore line: [D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cc8ab.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2458,13 +2458,13 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c2b0.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0c2b0.']
-        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccJoBjfE.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0c2b0.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0c2b0.dir/objects.a --no-whole-archive --out-implib libcmTC_0c2b0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc8ab.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cc8ab.']
+        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccW0WPtD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_cc8ab.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_cc8ab.dir/objects.a --no-whole-archive --out-implib libcmTC_cc8ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccJoBjfE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccW0WPtD.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2486,7 +2486,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_0c2b0.exe] ==> ignore
+          arg [cmTC_cc8ab.exe] ==> ignore
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2497,10 +2497,10 @@ events:
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_0c2b0.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_cc8ab.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_0c2b0.dll.a] ==> ignore
+          arg [libcmTC_cc8ab.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2572,333 +2572,6 @@ events:
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "D:/mingw64/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
-      - "CMakeLists.txt:13 (FetchContent_MakeAvailable)"
-    mode: "program"
-    variable: "GIT_EXECUTABLE"
-    description: "Git command line client"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "git.cmd"
-      - "git"
-    candidate_directories:
-      - "D:/mingw64/bin/"
-      - "D:/usr/bin/"
-      - "C:/Program Files/Microsoft VS Code/"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/Bandizip/"
-      - "D:/platform-tools/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/WireGuard/"
-      - "C:/Program Files/Tailscale/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/Cppcheck/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Users/JB/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/JB/.dotnet/tools/"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/"
-      - "C:/Strawberry/c/bin/"
-      - "C:/Strawberry/perl/site/bin/"
-      - "C:/Strawberry/perl/bin/"
-      - "D:/DEV/Batch/"
-      - "C:/Users/JB/AppData/Local/Python/bin/"
-      - "/mingw64/bin/"
-      - "/mingw64/sbin/"
-      - "/mingw64/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "D:/mingw64/bin/"
-      - "D:/mingw64/sbin/"
-      - "D:/mingw64/"
-      - "C:/Program Files (x86)/bestreviewer/bin/"
-      - "C:/Program Files (x86)/bestreviewer/sbin/"
-      - "C:/Program Files (x86)/bestreviewer/"
-      - "C:/Users/JB/AppData/Local/Atlassian/SourceTree/git_local/bin/"
-    searched_directories:
-      - "D:/mingw64/bin/git.cmd.com"
-      - "D:/mingw64/bin/git.cmd.exe"
-      - "D:/mingw64/bin/git.cmd"
-      - "D:/usr/bin/git.cmd.com"
-      - "D:/usr/bin/git.cmd.exe"
-      - "D:/usr/bin/git.cmd"
-      - "C:/Program Files/Microsoft VS Code/git.cmd.com"
-      - "C:/Program Files/Microsoft VS Code/git.cmd.exe"
-      - "C:/Program Files/Microsoft VS Code/git.cmd"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd.com"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd.exe"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.cmd"
-      - "C:/Windows/System32/git.cmd.com"
-      - "C:/Windows/System32/git.cmd.exe"
-      - "C:/Windows/System32/git.cmd"
-      - "C:/Windows/git.cmd.com"
-      - "C:/Windows/git.cmd.exe"
-      - "C:/Windows/git.cmd"
-      - "C:/Windows/System32/wbem/git.cmd.com"
-      - "C:/Windows/System32/wbem/git.cmd.exe"
-      - "C:/Windows/System32/wbem/git.cmd"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
-      - "C:/Windows/System32/OpenSSH/git.cmd.com"
-      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
-      - "C:/Windows/System32/OpenSSH/git.cmd"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd"
-      - "C:/Program Files/Bandizip/git.cmd.com"
-      - "C:/Program Files/Bandizip/git.cmd.exe"
-      - "C:/Program Files/Bandizip/git.cmd"
-      - "D:/platform-tools/git.cmd.com"
-      - "D:/platform-tools/git.cmd.exe"
-      - "D:/platform-tools/git.cmd"
-      - "C:/Program Files/dotnet/git.cmd.com"
-      - "C:/Program Files/dotnet/git.cmd.exe"
-      - "C:/Program Files/dotnet/git.cmd"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd"
-      - "C:/Program Files/WireGuard/git.cmd.com"
-      - "C:/Program Files/WireGuard/git.cmd.exe"
-      - "C:/Program Files/WireGuard/git.cmd"
-      - "C:/Program Files/Tailscale/git.cmd.com"
-      - "C:/Program Files/Tailscale/git.cmd.exe"
-      - "C:/Program Files/Tailscale/git.cmd"
-      - "C:/Program Files/Microsoft VS Code/bin/git.cmd.com"
-      - "C:/Program Files/Microsoft VS Code/bin/git.cmd.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/git.cmd"
-      - "C:/Program Files/CMake/bin/git.cmd.com"
-      - "C:/Program Files/CMake/bin/git.cmd.exe"
-      - "C:/Program Files/CMake/bin/git.cmd"
-      - "C:/Program Files/Cppcheck/git.cmd.com"
-      - "C:/Program Files/Cppcheck/git.cmd.exe"
-      - "C:/Program Files/Cppcheck/git.cmd"
-      - "C:/Program Files/Git/cmd/git.cmd.com"
-      - "C:/Program Files/Git/cmd/git.cmd.exe"
-      - "C:/Program Files/Git/cmd/git.cmd"
-      - "C:/Program Files/LLVM/bin/git.cmd.com"
-      - "C:/Program Files/LLVM/bin/git.cmd.exe"
-      - "C:/Program Files/LLVM/bin/git.cmd"
-      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
-      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
-      - "C:/ProgramData/chocolatey/bin/git.cmd"
-      - "C:/Users/JB/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
-      - "C:/Users/JB/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
-      - "C:/Users/JB/AppData/Local/Microsoft/WindowsApps/git.cmd"
-      - "C:/Users/JB/.dotnet/tools/git.cmd.com"
-      - "C:/Users/JB/.dotnet/tools/git.cmd.exe"
-      - "C:/Users/JB/.dotnet/tools/git.cmd"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/git.cmd.com"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/git.cmd.exe"
-      - "C:/ProgramData/chocolatey/lib/lcov/tools/bin/git.cmd"
-      - "C:/Strawberry/c/bin/git.cmd.com"
-      - "C:/Strawberry/c/bin/git.cmd.exe"
-      - "C:/Strawberry/c/bin/git.cmd"
-      - "C:/Strawberry/perl/site/bin/git.cmd.com"
-      - "C:/Strawberry/perl/site/bin/git.cmd.exe"
-      - "C:/Strawberry/perl/site/bin/git.cmd"
-      - "C:/Strawberry/perl/bin/git.cmd.com"
-      - "C:/Strawberry/perl/bin/git.cmd.exe"
-      - "C:/Strawberry/perl/bin/git.cmd"
-      - "D:/DEV/Batch/git.cmd.com"
-      - "D:/DEV/Batch/git.cmd.exe"
-      - "D:/DEV/Batch/git.cmd"
-      - "C:/Users/JB/AppData/Local/Python/bin/git.cmd.com"
-      - "C:/Users/JB/AppData/Local/Python/bin/git.cmd.exe"
-      - "C:/Users/JB/AppData/Local/Python/bin/git.cmd"
-      - "/mingw64/bin/git.cmd.com"
-      - "/mingw64/bin/git.cmd.exe"
-      - "/mingw64/bin/git.cmd"
-      - "/mingw64/sbin/git.cmd.com"
-      - "/mingw64/sbin/git.cmd.exe"
-      - "/mingw64/sbin/git.cmd"
-      - "/mingw64/git.cmd.com"
-      - "/mingw64/git.cmd.exe"
-      - "/mingw64/git.cmd"
-      - "C:/Program Files/bin/git.cmd.com"
-      - "C:/Program Files/bin/git.cmd.exe"
-      - "C:/Program Files/bin/git.cmd"
-      - "C:/Program Files/sbin/git.cmd.com"
-      - "C:/Program Files/sbin/git.cmd.exe"
-      - "C:/Program Files/sbin/git.cmd"
-      - "C:/Program Files/git.cmd.com"
-      - "C:/Program Files/git.cmd.exe"
-      - "C:/Program Files/git.cmd"
-      - "C:/Program Files (x86)/bin/git.cmd.com"
-      - "C:/Program Files (x86)/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/bin/git.cmd"
-      - "C:/Program Files (x86)/sbin/git.cmd.com"
-      - "C:/Program Files (x86)/sbin/git.cmd.exe"
-      - "C:/Program Files (x86)/sbin/git.cmd"
-      - "C:/Program Files (x86)/git.cmd.com"
-      - "C:/Program Files (x86)/git.cmd.exe"
-      - "C:/Program Files (x86)/git.cmd"
-      - "D:/mingw64/bin/git.cmd.com"
-      - "D:/mingw64/bin/git.cmd.exe"
-      - "D:/mingw64/bin/git.cmd"
-      - "D:/mingw64/sbin/git.cmd.com"
-      - "D:/mingw64/sbin/git.cmd.exe"
-      - "D:/mingw64/sbin/git.cmd"
-      - "D:/mingw64/git.cmd.com"
-      - "D:/mingw64/git.cmd.exe"
-      - "D:/mingw64/git.cmd"
-      - "C:/Program Files (x86)/bestreviewer/bin/git.cmd.com"
-      - "C:/Program Files (x86)/bestreviewer/bin/git.cmd.exe"
-      - "C:/Program Files (x86)/bestreviewer/bin/git.cmd"
-      - "C:/Program Files (x86)/bestreviewer/sbin/git.cmd.com"
-      - "C:/Program Files (x86)/bestreviewer/sbin/git.cmd.exe"
-      - "C:/Program Files (x86)/bestreviewer/sbin/git.cmd"
-      - "C:/Program Files (x86)/bestreviewer/git.cmd.com"
-      - "C:/Program Files (x86)/bestreviewer/git.cmd.exe"
-      - "C:/Program Files (x86)/bestreviewer/git.cmd"
-      - "C:/Users/JB/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
-      - "C:/Users/JB/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
-      - "C:/Users/JB/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
-      - "D:/mingw64/bin/git.com"
-      - "D:/mingw64/bin/git.exe"
-      - "D:/mingw64/bin/git"
-      - "D:/usr/bin/git.com"
-      - "D:/usr/bin/git.exe"
-      - "D:/usr/bin/git"
-      - "C:/Program Files/Microsoft VS Code/git.com"
-      - "C:/Program Files/Microsoft VS Code/git.exe"
-      - "C:/Program Files/Microsoft VS Code/git"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.com"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git.exe"
-      - "C:/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin/git"
-      - "C:/Windows/System32/git.com"
-      - "C:/Windows/System32/git.exe"
-      - "C:/Windows/System32/git"
-      - "C:/Windows/git.com"
-      - "C:/Windows/git.exe"
-      - "C:/Windows/git"
-      - "C:/Windows/System32/wbem/git.com"
-      - "C:/Windows/System32/wbem/git.exe"
-      - "C:/Windows/System32/wbem/git"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
-      - "C:/Windows/System32/OpenSSH/git.com"
-      - "C:/Windows/System32/OpenSSH/git.exe"
-      - "C:/Windows/System32/OpenSSH/git"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git"
-      - "C:/Program Files/Bandizip/git.com"
-      - "C:/Program Files/Bandizip/git.exe"
-      - "C:/Program Files/Bandizip/git"
-      - "D:/platform-tools/git.com"
-      - "D:/platform-tools/git.exe"
-      - "D:/platform-tools/git"
-      - "C:/Program Files/dotnet/git.com"
-      - "C:/Program Files/dotnet/git.exe"
-      - "C:/Program Files/dotnet/git"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git"
-      - "C:/Program Files/WireGuard/git.com"
-      - "C:/Program Files/WireGuard/git.exe"
-      - "C:/Program Files/WireGuard/git"
-      - "C:/Program Files/Tailscale/git.com"
-      - "C:/Program Files/Tailscale/git.exe"
-      - "C:/Program Files/Tailscale/git"
-      - "C:/Program Files/Microsoft VS Code/bin/git.com"
-      - "C:/Program Files/Microsoft VS Code/bin/git.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/git"
-      - "C:/Program Files/CMake/bin/git.com"
-      - "C:/Program Files/CMake/bin/git.exe"
-      - "C:/Program Files/CMake/bin/git"
-      - "C:/Program Files/Cppcheck/git.com"
-      - "C:/Program Files/Cppcheck/git.exe"
-      - "C:/Program Files/Cppcheck/git"
-      - "C:/Program Files/Git/cmd/git.com"
-    found: "C:/Program Files/Git/cmd/git.exe"
-    search_context:
-      ENV{PATH}:
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
-        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
-        - "C:/Windows/system32"
-        - "C:\\Windows"
-        - "C:/Windows/System32/Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/Windows/System32/OpenSSH/"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "D:\\platform-tools"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files/WireGuard/"
-        - "C:\\Program Files\\Tailscale\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "D:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-        - "D:/DEV/Batch"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\Users\\JB\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/mingw64"
-        - "C:/Program Files (x86)/bestreviewer"
   -
     kind: "find-v1"
     backtrace:
@@ -4080,8 +3753,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u"
-      binary: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u"
+      source: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad"
+      binary: "D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -4091,13 +3764,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u'
+        Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad'
         
-        Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1148f/fast
-        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1148f.dir\\build.make CMakeFiles/cmTC_1148f.dir/build
-        mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u'
-        Building C object CMakeFiles/cmTC_1148f.dir/CMakeCCompilerABI.c.obj
-        D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_350f6/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_350f6.dir\\build.make CMakeFiles/cmTC_350f6.dir/build
+        mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad'
+        Building C object CMakeFiles/cmTC_350f6.dir/CMakeCCompilerABI.c.obj
+        D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -4106,8 +3779,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_1148f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccHm6B7K.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_350f6.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccb10wJc.s
         GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -4126,14 +3799,14 @@ events:
          D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: ad450cfe7aa02cbc3fb83e970d6aeb5d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\'
-         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccHm6B7K.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\'
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccb10wJc.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_1148f.exe
-        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1148f.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_350f6.exe
+        D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_350f6.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -4145,16 +3818,16 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1148f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1148f.'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccKjiiWm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1148f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1148f.dir/objects.a --no-whole-archive --out-implib libcmTC_1148f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_350f6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_350f6.'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccQdHwuP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_350f6.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_350f6.dir/objects.a --no-whole-archive --out-implib libcmTC_350f6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccKjiiWm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1148f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1148f.dir/objects.a --no-whole-archive --out-implib libcmTC_1148f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccQdHwuP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_350f6.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_350f6.dir/objects.a --no-whole-archive --out-implib libcmTC_350f6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1148f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1148f.'
-        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1148f.dir/objects.a
-        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1148f.dir/objects.a @CMakeFiles\\cmTC_1148f.dir\\objects1.rsp
-        D:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1148f.dir/objects.a -Wl,--no-whole-archive -o cmTC_1148f.exe -Wl,--out-implib,libcmTC_1148f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_350f6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_350f6.'
+        D:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_350f6.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_350f6.dir/objects.a @CMakeFiles\\cmTC_350f6.dir\\objects1.rsp
+        D:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_350f6.dir/objects.a -Wl,--no-whole-archive -o cmTC_350f6.exe -Wl,--out-implib,libcmTC_350f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad'
         
       exitCode: 0
   -
@@ -4189,13 +3862,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u']
+        ignore line: [Change Dir: 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1148f/fast]
-        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1148f.dir\\build.make CMakeFiles/cmTC_1148f.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-l7en2u']
-        ignore line: [Building C object CMakeFiles/cmTC_1148f.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/mingw64/bin/cmake.exe -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_350f6/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_350f6.dir\\build.make CMakeFiles/cmTC_350f6.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/DEV/TDD_TV_09/build/CMakeFiles/CMakeScratch/TryCompile-er1mad']
+        ignore line: [Building C object CMakeFiles/cmTC_350f6.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj -c D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -4204,8 +3877,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\']
-        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_1148f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccHm6B7K.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\']
+        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_350f6.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\JB\\AppData\\Local\\Temp\\ccb10wJc.s]
         ignore line: [GNU C23 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -4224,8 +3897,8 @@ events:
         ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ad450cfe7aa02cbc3fb83e970d6aeb5d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\']
-        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccHm6B7K.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\']
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj C:\\Users\\JB\\AppData\\Local\\Temp\\ccb10wJc.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [D:/mingw64/bin/../libexec/gcc/]
@@ -4236,9 +3909,9 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1148f.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_1148f.exe]
-        ignore line: [D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1148f.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_350f6.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_350f6.exe]
+        ignore line: [D:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_350f6.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -4257,13 +3930,13 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1148f.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1148f.']
-        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccKjiiWm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1148f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1148f.dir/objects.a --no-whole-archive --out-implib libcmTC_1148f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_350f6.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_350f6.']
+        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccQdHwuP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_350f6.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_350f6.dir/objects.a --no-whole-archive --out-implib libcmTC_350f6.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccKjiiWm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\JB\\AppData\\Local\\Temp\\ccQdHwuP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -4285,7 +3958,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_1148f.exe] ==> ignore
+          arg [cmTC_350f6.exe] ==> ignore
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -4296,10 +3969,10 @@ events:
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_1148f.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_350f6.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_1148f.dll.a] ==> ignore
+          arg [libcmTC_350f6.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4372,721 +4045,4 @@ events:
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_ucrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_ucrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_ucrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_ucrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_ucrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_ucrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
-  -
-    kind: "find-v1"
-    backtrace:
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython/Support.cmake:2285 (find_program)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.15"
-      - "python3"
-      - "python"
-      - "ipy3.15"
-      - "ipy3"
-      - "ipy64"
-      - "ipy32"
-      - "ipy"
-      - "ipy.exe"
-    candidate_directories:
-      - "/REGISTRY-NOTFOUND/bin/"
-      - "/REGISTRY-NOTFOUND/Scripts/"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/"
-      - "/REGISTRY-NOTFOUND/net45/"
-      - "/REGISTRY-NOTFOUND/net40/"
-      - "/REGISTRY-NOTFOUND/"
-    searched_directories:
-      - "/REGISTRY-NOTFOUND/bin/python3.15.com"
-      - "/REGISTRY-NOTFOUND/bin/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/bin/python3.15"
-      - "/REGISTRY-NOTFOUND/bin/python3.com"
-      - "/REGISTRY-NOTFOUND/bin/python3.exe"
-      - "/REGISTRY-NOTFOUND/bin/python3"
-      - "/REGISTRY-NOTFOUND/bin/python.com"
-      - "/REGISTRY-NOTFOUND/bin/python.exe"
-      - "/REGISTRY-NOTFOUND/bin/python"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.15"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy3"
-      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy64"
-      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy32"
-      - "/REGISTRY-NOTFOUND/bin/ipy.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.15.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.15"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3"
-      - "/REGISTRY-NOTFOUND/Scripts/python.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3.15.com"
-      - "/REGISTRY-NOTFOUND/net45/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3.15"
-      - "/REGISTRY-NOTFOUND/net45/python3.com"
-      - "/REGISTRY-NOTFOUND/net45/python3.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3"
-      - "/REGISTRY-NOTFOUND/net45/python.com"
-      - "/REGISTRY-NOTFOUND/net45/python.exe"
-      - "/REGISTRY-NOTFOUND/net45/python"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.15"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy3"
-      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy64"
-      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy32"
-      - "/REGISTRY-NOTFOUND/net45/ipy.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3.15.com"
-      - "/REGISTRY-NOTFOUND/net40/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3.15"
-      - "/REGISTRY-NOTFOUND/net40/python3.com"
-      - "/REGISTRY-NOTFOUND/net40/python3.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3"
-      - "/REGISTRY-NOTFOUND/net40/python.com"
-      - "/REGISTRY-NOTFOUND/net40/python.exe"
-      - "/REGISTRY-NOTFOUND/net40/python"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.15"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy3"
-      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy64"
-      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy32"
-      - "/REGISTRY-NOTFOUND/net40/ipy.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
-      - "/REGISTRY-NOTFOUND/python3.15.com"
-      - "/REGISTRY-NOTFOUND/python3.15.exe"
-      - "/REGISTRY-NOTFOUND/python3.15"
-      - "/REGISTRY-NOTFOUND/python3.com"
-      - "/REGISTRY-NOTFOUND/python3.exe"
-      - "/REGISTRY-NOTFOUND/python3"
-      - "/REGISTRY-NOTFOUND/python.com"
-      - "/REGISTRY-NOTFOUND/python.exe"
-      - "/REGISTRY-NOTFOUND/python"
-      - "/REGISTRY-NOTFOUND/ipy3.15.com"
-      - "/REGISTRY-NOTFOUND/ipy3.15.exe"
-      - "/REGISTRY-NOTFOUND/ipy3.15"
-      - "/REGISTRY-NOTFOUND/ipy3.com"
-      - "/REGISTRY-NOTFOUND/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/ipy3"
-      - "/REGISTRY-NOTFOUND/ipy64.com"
-      - "/REGISTRY-NOTFOUND/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/ipy64"
-      - "/REGISTRY-NOTFOUND/ipy32.com"
-      - "/REGISTRY-NOTFOUND/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/ipy32"
-      - "/REGISTRY-NOTFOUND/ipy.com"
-      - "/REGISTRY-NOTFOUND/ipy.exe"
-      - "/REGISTRY-NOTFOUND/ipy"
-      - "/REGISTRY-NOTFOUND/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/ipy.exe"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
-        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
-        - "C:/Windows/system32"
-        - "C:\\Windows"
-        - "C:/Windows/System32/Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/Windows/System32/OpenSSH/"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "D:\\platform-tools"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files/WireGuard/"
-        - "C:\\Program Files\\Tailscale\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "D:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-        - "D:/DEV/Batch"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\Users\\JB\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/mingw64"
-        - "C:/Program Files (x86)/bestreviewer"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython/Support.cmake:2285 (find_program)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.14"
-      - "python3"
-      - "python"
-      - "ipy3.14"
-      - "ipy3"
-      - "ipy64"
-      - "ipy32"
-      - "ipy"
-      - "ipy.exe"
-    candidate_directories:
-      - "/REGISTRY-NOTFOUND/bin/"
-      - "/REGISTRY-NOTFOUND/Scripts/"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/"
-      - "/REGISTRY-NOTFOUND/net45/"
-      - "/REGISTRY-NOTFOUND/net40/"
-      - "/REGISTRY-NOTFOUND/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/"
-    searched_directories:
-      - "/REGISTRY-NOTFOUND/bin/python3.14.com"
-      - "/REGISTRY-NOTFOUND/bin/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/bin/python3.14"
-      - "/REGISTRY-NOTFOUND/bin/python3.com"
-      - "/REGISTRY-NOTFOUND/bin/python3.exe"
-      - "/REGISTRY-NOTFOUND/bin/python3"
-      - "/REGISTRY-NOTFOUND/bin/python.com"
-      - "/REGISTRY-NOTFOUND/bin/python.exe"
-      - "/REGISTRY-NOTFOUND/bin/python"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.14"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy3"
-      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy64"
-      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy32"
-      - "/REGISTRY-NOTFOUND/bin/ipy.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
-      - "/REGISTRY-NOTFOUND/bin/ipy"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.14.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.14"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python3"
-      - "/REGISTRY-NOTFOUND/Scripts/python.com"
-      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/python"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3.14.com"
-      - "/REGISTRY-NOTFOUND/net45/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3.14"
-      - "/REGISTRY-NOTFOUND/net45/python3.com"
-      - "/REGISTRY-NOTFOUND/net45/python3.exe"
-      - "/REGISTRY-NOTFOUND/net45/python3"
-      - "/REGISTRY-NOTFOUND/net45/python.com"
-      - "/REGISTRY-NOTFOUND/net45/python.exe"
-      - "/REGISTRY-NOTFOUND/net45/python"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.14"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy3"
-      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy64"
-      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy32"
-      - "/REGISTRY-NOTFOUND/net45/ipy.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net45/ipy"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3.14.com"
-      - "/REGISTRY-NOTFOUND/net40/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3.14"
-      - "/REGISTRY-NOTFOUND/net40/python3.com"
-      - "/REGISTRY-NOTFOUND/net40/python3.exe"
-      - "/REGISTRY-NOTFOUND/net40/python3"
-      - "/REGISTRY-NOTFOUND/net40/python.com"
-      - "/REGISTRY-NOTFOUND/net40/python.exe"
-      - "/REGISTRY-NOTFOUND/net40/python"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.14"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy3"
-      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy64"
-      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy32"
-      - "/REGISTRY-NOTFOUND/net40/ipy.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
-      - "/REGISTRY-NOTFOUND/net40/ipy"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
-      - "/REGISTRY-NOTFOUND/python3.14.com"
-      - "/REGISTRY-NOTFOUND/python3.14.exe"
-      - "/REGISTRY-NOTFOUND/python3.14"
-      - "/REGISTRY-NOTFOUND/python3.com"
-      - "/REGISTRY-NOTFOUND/python3.exe"
-      - "/REGISTRY-NOTFOUND/python3"
-      - "/REGISTRY-NOTFOUND/python.com"
-      - "/REGISTRY-NOTFOUND/python.exe"
-      - "/REGISTRY-NOTFOUND/python"
-      - "/REGISTRY-NOTFOUND/ipy3.14.com"
-      - "/REGISTRY-NOTFOUND/ipy3.14.exe"
-      - "/REGISTRY-NOTFOUND/ipy3.14"
-      - "/REGISTRY-NOTFOUND/ipy3.com"
-      - "/REGISTRY-NOTFOUND/ipy3.exe"
-      - "/REGISTRY-NOTFOUND/ipy3"
-      - "/REGISTRY-NOTFOUND/ipy64.com"
-      - "/REGISTRY-NOTFOUND/ipy64.exe"
-      - "/REGISTRY-NOTFOUND/ipy64"
-      - "/REGISTRY-NOTFOUND/ipy32.com"
-      - "/REGISTRY-NOTFOUND/ipy32.exe"
-      - "/REGISTRY-NOTFOUND/ipy32"
-      - "/REGISTRY-NOTFOUND/ipy.com"
-      - "/REGISTRY-NOTFOUND/ipy.exe"
-      - "/REGISTRY-NOTFOUND/ipy"
-      - "/REGISTRY-NOTFOUND/ipy.exe.com"
-      - "/REGISTRY-NOTFOUND/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/python"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/python"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/python"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/python"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python.com"
-    found: "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python.exe"
-    search_context:
-      ENV{PATH}:
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
-        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
-        - "C:/Windows/system32"
-        - "C:\\Windows"
-        - "C:/Windows/System32/Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/Windows/System32/OpenSSH/"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "D:\\platform-tools"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files/WireGuard/"
-        - "C:\\Program Files\\Tailscale\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "D:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-        - "D:/DEV/Batch"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\Users\\JB\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/mingw64"
-        - "C:/Program Files (x86)/bestreviewer"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
-      - "D:/mingw64/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
-    mode: "program"
-    variable: "_Python3_EXECUTABLE_DEBUG"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "python3.14_d"
-      - "python3_d"
-      - "python_d"
-    candidate_directories:
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/"
-    searched_directories:
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3.14_d"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3_d.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3_d.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python3_d"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python_d.com"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python_d.exe"
-      - "C:/Users/JB/AppData/Local/Python/pythoncore-3.14-64/python_d"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\mingw64\\bin"
-        - "D:\\usr\\bin"
-        - "C:/Program Files/Microsoft VS Code"
-        - "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin"
-        - "C:/Windows/system32"
-        - "C:\\Windows"
-        - "C:/Windows/System32/Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/Windows/System32/OpenSSH/"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-        - "C:\\Program Files\\Bandizip\\"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "D:\\platform-tools"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files/WireGuard/"
-        - "C:\\Program Files\\Tailscale\\"
-        - "C:/Program Files/Microsoft VS Code/bin"
-        - "D:\\mingw64\\bin"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Program Files\\Cppcheck"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/ProgramData/chocolatey/bin"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\ProgramData\\chocolatey\\bin"
-        - "C:/ProgramData/chocolatey/lib/lcov/tools/bin"
-        - "C:\\Strawberry\\c\\bin"
-        - "C:/Strawberry/perl/site/bin"
-        - "C:\\Strawberry\\perl\\bin"
-        - "D:/DEV/Batch"
-        - "C:\\Users\\JB\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/JB/.dotnet/tools"
-        - "C:\\Users\\JB\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bestreviewer"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/mingw64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/mingw64"
-        - "C:/Program Files (x86)/bestreviewer"
 ...

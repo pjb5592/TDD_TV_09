@@ -7,9 +7,9 @@
       "tests": 1,
       "testsuite": [
         {
-          "name": "testFramework",
+          "name": "TC01_SingleDigitWithOk_ChangesChannel",
           "file": "D:\\DEV\\TDD_TV_09\\test\\TVControllerTest.cpp",
-          "line": 13
+          "line": 34
         }
       ]
     }

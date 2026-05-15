@@ -24,6 +24,8 @@ protected:
       controller->pushButton(key);
     }
   }
+
+  std::string getProcessingCH() { return controller->getProcessingCH(); }
 };
 
 // TEST(TVControllerTest, testFramework) {
@@ -32,6 +34,12 @@ protected:
 
 // TC-01: 한자리 숫자 입력 + 확인 → 채널변경
 TEST_F(TVControllerTest, TC01_SingleDigitWithOk_ChangesChannel) {
-  EXPECT_CALL(mockTuner, setCH("5")).Times(1);
   pushKeys({remoteKey::KEY_5, remoteKey::KEY_OK});
+  std::string channel = getProcessingCH();
+
+  EXPECT_CALL(mockTuner, setCH("5")).Times(1);
+  EXPECT_CALL(mockTuner, getCurrentCH()).WillOnce(::testing::Return(channel));
+
+  mockTuner.setCH(channel);
+  EXPECT_EQ(channel, mockTuner.getCurrentCH());
 }

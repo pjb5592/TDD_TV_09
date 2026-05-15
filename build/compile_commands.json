@@ -7,6 +7,12 @@
 },
 {
   "directory": "D:/DEV/TDD_TV_09/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerTest.dir\\src\\TVController.cpp.obj -c D:\\DEV\\TDD_TV_09\\src\\TVController.cpp",
+  "file": "D:/DEV/TDD_TV_09/src/TVController.cpp",
+  "output": "CMakeFiles/TVControllerTest.dir/src/TVController.cpp.obj"
+},
+{
+  "directory": "D:/DEV/TDD_TV_09/build",
   "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerTest.dir\\test\\TVControllerTest.cpp.obj -c D:\\DEV\\TDD_TV_09\\test\\TVControllerTest.cpp",
   "file": "D:/DEV/TDD_TV_09/test/TVControllerTest.cpp",
   "output": "CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj"

@@ -24,7 +24,7 @@ enable_testing()
 add_executable(TunerTest test/TunerTest.cpp)
 target_link_libraries(TunerTest PRIVATE GTest::gtest_main GTest::gmock)
 
-add_executable(TVControllerTest test/TVControllerTest.cpp)
+add_executable(TVControllerTest src/TVController.cpp test/TVControllerTest.cpp)
 target_link_libraries(TVControllerTest PRIVATE GTest::gtest_main GTest::gmock)
 
 include(GoogleTest)

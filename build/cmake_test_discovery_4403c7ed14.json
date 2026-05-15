@@ -1,15 +1,20 @@
 {
-  "tests": 1,
+  "tests": 2,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "TVControllerTest",
-      "tests": 1,
+      "tests": 2,
       "testsuite": [
         {
           "name": "TC01_SingleDigitWithOk_ChangesChannel",
           "file": "D:\\DEV\\TDD_TV_09\\test\\TVControllerTest.cpp",
           "line": 36
+        },
+        {
+          "name": "TC02_TwoDigits_AutomaticallyChangesChannel",
+          "file": "D:\\DEV\\TDD_TV_09\\test\\TVControllerTest.cpp",
+          "line": 48
         }
       ]
     }

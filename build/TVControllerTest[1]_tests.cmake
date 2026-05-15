@@ -1,3 +1,5 @@
 add_test([=[TVControllerTest.TC01_SingleDigitWithOk_ChangesChannel]=]  D:/DEV/TDD_TV_09/build/TVControllerTest.exe [==[--gtest_filter=TVControllerTest.TC01_SingleDigitWithOk_ChangesChannel]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[TVControllerTest.TC01_SingleDigitWithOk_ChangesChannel]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\DEV\TDD_TV_09\test\TVControllerTest.cpp:36]==] WORKING_DIRECTORY D:/DEV/TDD_TV_09/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  TVControllerTest_TESTS TVControllerTest.TC01_SingleDigitWithOk_ChangesChannel)
+add_test([=[TVControllerTest.TC02_TwoDigits_AutomaticallyChangesChannel]=]  D:/DEV/TDD_TV_09/build/TVControllerTest.exe [==[--gtest_filter=TVControllerTest.TC02_TwoDigits_AutomaticallyChangesChannel]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[TVControllerTest.TC02_TwoDigits_AutomaticallyChangesChannel]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\DEV\TDD_TV_09\test\TVControllerTest.cpp:48]==] WORKING_DIRECTORY D:/DEV/TDD_TV_09/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  TVControllerTest_TESTS TVControllerTest.TC01_SingleDigitWithOk_ChangesChannel TVControllerTest.TC02_TwoDigits_AutomaticallyChangesChannel)
